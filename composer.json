@@ -1,0 +1,27 @@
+{
+    "name": "omnilight/yz2-users",
+    "description": "Module for managing users",
+    "keywords": ["yii", "framework", "yz", "user management"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavel Agalecky",
+            "email": "pavel.agalecky@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "omnilight/icons": "*",
+        "omnilight/yz2": "*"
+    },
+    "autoload": {
+        "psr-0": { "yz\\admin\\": "" }
+    },
+    "target-dir": "yz/users",
+    "extra": {
+        "bootstrap": "yz\\users\\Extension"
+    }
+}
